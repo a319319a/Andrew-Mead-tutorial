@@ -32,7 +32,6 @@ const geoURLfunction=(location,callback)=>{
 geoURLfunction('kolkata, West Bengal, India',(data)=>{
   temparature(data,(data)=>{
     console.log('Amartya')
-
     console.log('Currently it is '+data.current.weather_descriptions[0]+ ' and the temparature' +data.temparature+' degree celcius.')
   })
 })
