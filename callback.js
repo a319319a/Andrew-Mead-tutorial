@@ -28,7 +28,6 @@
 const add=(a,b,callback)=>{
     setTimeout(() => {
         const data=a+b
-
         callback(data)
     }, 2000);
 }
