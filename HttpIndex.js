@@ -24,5 +24,4 @@ yargs.command({
         findWeather(argv.place)
      }
 })
-
 yargs.parse()
